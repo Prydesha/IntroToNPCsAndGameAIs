@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aa5e417f2b0978438f71659ffb810bf, type: 3}
+  m_Name: SwingSwordAction
+  m_EditorClassIdentifier: 
+  _factors:
+  - Weight: 1
+    UtilityFunction:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: -3.2951555
+        outSlope: -3.2951555
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.032085557
+      - serializedVersion: 3
+        time: 0.39529407
+        value: 0.10182011
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1265598
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Input: {fileID: 11400000, guid: 430a1d3ea048dec43a0cf0350dc3f782, type: 2}
+  _randomUtilBonusMax: 0.01
+  _minimumPerformTime: 0.5
+  lastCalculatedUtility: 0
